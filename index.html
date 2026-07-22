@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G.I.S - Soluções Web & Sistemas | Sites, Lojas e Sistemas de Pedidos</title>
+  <meta name="description" content="G.I.S Tech desenvolve sites institucionais, lojas virtuais e sistemas de pedidos para delivery sem comissões. Orçamento rápido pelo WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&family=Fraunces:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-circuit-bg" aria-hidden="true">
+    <span class="circuit-pulse circuit-pulse--1"></span>
+    <span class="circuit-pulse circuit-pulse--2"></span>
+    <span class="circuit-pulse circuit-pulse--3"></span>
+    <span class="circuit-pulse circuit-pulse--4"></span>
+    <span class="circuit-pulse circuit-pulse--5"></span>
+  </div>
+
+
+  <!-- ============ HEADER ============ -->
+  <header id="main-header">
+    <div class="container header-inner">
+      <a href="#" class="logo-link" aria-label="G.I.S Tech - Início">
+        <div class="gis-logo" data-size="sm">
+          <div class="gis-logo-badge">
+            <img src="https://res.cloudinary.com/di9go4bdw/image/upload/v1784661184/logo_da_gis_ysom6v.jpg" alt="Logo G.I.S" class="gis-logo-img" loading="lazy" />
+            <div class="gis-logo-fallback" hidden>
+              <span>G.I.S</span>
+            </div>
+            <span class="gis-logo-ping"></span>
+            <span class="gis-logo-dot"></span>
+          </div>
+          <div class="gis-logo-text">
+            <span class="gis-logo-title">G.I.S <em>TECH</em></span>
+          </div>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#sistema-pedidos-demo">Sistema de Pedidos</a>
+        <a href="#calculadora">Calculadora de Orçamento</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="desktop-actions">
+        <div class="tech-status-pill">
+          <span class="dot-ping"></span>
+          <span>ONLINE v3.4</span>
+        </div>
+        <button id="openAiConsultantDesktop" class="btn btn-ai">
+          <i data-lucide="sparkles"></i>
+          <span>Consultor IA</span>
+        </button>
+        <button id="openCalculatorDesktop" class="btn btn-primary-cyan">
+          <i data-lucide="calculator"></i>
+          <span>Simular Orçamento</span>
+        </button>
+        <a id="waHeaderBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+          <i data-lucide="message-square"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+      <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Abrir Menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+
+    <div id="mobileDrawer" class="mobile-drawer" hidden>
+      <div class="mobile-drawer-links">
+        <a href="#servicos" class="mobile-link">Serviços</a>
+        <a href="#portfolio" class="mobile-link">Portfólio</a>
+        <a href="#sistema-pedidos-demo" class="mobile-link">Sistema de Pedidos</a>
+        <a href="#calculadora" class="mobile-link">Calculadora de Orçamento</a>
+        <a href="#contato" class="mobile-link">Contato</a>
+      </div>
+      <div class="mobile-drawer-actions">
+        <button id="openAiConsultantMobile" class="btn btn-ai btn-block">
+          <i data-lucide="sparkles"></i>
+          <span>Consultor IA de Projetos</span>
+        </button>
+        <button id="openCalculatorMobile" class="btn btn-primary-cyan btn-block">
+          <i data-lucide="calculator"></i>
+          <span>Simular Orçamento Rápido</span>
+        </button>
+        <a id="waMobileBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+          <i data-lucide="message-square"></i>
+          <span>Falar no WhatsApp Direct</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-bg-image" style="background-image:url('assets/images/gis_hero_banner_1784654242587.jpg')"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-grid"></div>
+
+      <div class="container hero-content">
+        <div class="badge-pill">
+          <span class="dot-ping cyan"></span>
+          <span class="badge-strong">G.I.S CYBER SYSTEMS</span>
+          <span class="badge-sep">•</span>
+          <span class="badge-muted">Sites, Lojas & Automações de Alta Performance</span>
+        </div>
+
+        <div class="hero-logo-wrap">
+          <div class="gis-logo" data-size="xl" data-variant="hero">
+            <div class="gis-logo-badge hero-variant">
+              <img src="https://res.cloudinary.com/di9go4bdw/image/upload/v1784661184/logo_da_gis_ysom6v.jpg" alt="Logo G.I.S" class="gis-logo-img" loading="lazy" /><div class="gis-logo-fallback" hidden><span>G.I.S</span></div>
+              <span class="gis-logo-ping"></span>
+              <span class="gis-logo-dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Transformamos sua empresa em uma
+          <span class="gradient-text-cyan">máquina tecnológica de vendas.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Desenvolvemos <strong>websites institucionais de alta velocidade</strong>,
+          <strong>lojas virtuais com Pix instantâneo</strong> e
+          <strong>sistemas inteligentes de pedidos para delivery</strong>
+          sob medida para acelerar seu faturamento.
+        </p>
+
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-header-left">
+              <i data-lucide="terminal"></i>
+              <span>G.I.S Engine Terminal v3.4</span>
+            </div>
+            <div class="terminal-dots">
+              <span class="term-dot red"></span>
+              <span class="term-dot amber"></span>
+              <span class="term-dot green"></span>
+            </div>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-line cyan-line">$ gis deploy --project=sua_empresa --speed=max</p>
+            <p class="terminal-line">✓ Otimização de Imagens & SEO: <span class="text-emerald">100/100 (Google Lighthouse)</span></p>
+            <p class="terminal-line">✓ Integração WhatsApp & Checkout Pix: <span class="text-cyan">ATIVO INSTANTÂNEO</span></p>
+            <p class="terminal-line">✓ Tempo de Resposta Servidor: <span class="text-teal">12ms (Edge CDN Global)</span></p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-cta-gradient">
+            <span>Ver Portfólio Tecnológico</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+          <button id="openCalculatorHero" class="btn btn-outline-cyan">
+            <i data-lucide="calculator"></i>
+            <span>Simular Orçamento Online</span>
+          </button>
+        </div>
+
+        <div class="hero-chips">
+          <div class="chip-card">
+            <div class="chip-icon cyan"><i data-lucide="globe"></i></div>
+            <div>
+              <h3>Sites Ultra-Rápidos</h3>
+              <p>Institucionais & Landing Pages</p>
+            </div>
+          </div>
+          <div class="chip-card">
+            <div class="chip-icon amber"><i data-lucide="utensils-crossed"></i></div>
+            <div>
+              <h3>Sistemas de Pedidos</h3>
+              <p>Delivery sem comissões</p>
+            </div>
+          </div>
+          <div class="chip-card">
+            <div class="chip-icon emerald"><i data-lucide="shopping-bag"></i></div>
+            <div>
+              <h3>Lojas Virtuais</h3>
+              <p>Checkout Pix & Cartão</p>
+            </div>
+          </div>
+          <div class="chip-card">
+            <div class="chip-icon cyan"><i data-lucide="zap"></i></div>
+            <div>
+              <h3>Servidor Edge</h3>
+              <p>Otimização máxima Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item"><i data-lucide="check-circle-2" class="text-emerald"></i><span>Entrega Ágil em 5 a 10 dias</span></div>
+          <div class="stat-item"><i data-lucide="shield-check" class="text-cyan"></i><span>Código limpo + Segurança HTTPS SSL</span></div>
+          <div class="stat-item"><i data-lucide="sparkles" class="text-amber"></i><span>Suporte Direto no WhatsApp</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Nossos Serviços</span>
+          <h2 class="section-title">O que a <span class="serif-italic">G.I.S</span> constrói para você</h2>
+          <p class="section-subtitle">Da criação do seu primeiro site institucional ao sistema completo de pedidos para sua loja ou restaurante.</p>
+        </div>
+
+        <div id="servicesFilters" class="filter-pills"></div>
+        <div id="servicesGrid" class="cards-row"></div>
+      </div>
+    </section>
+
+    <!-- ============ LIVE ORDER SYSTEM DEMO ============ -->
+    <section id="sistema-pedidos-demo" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow-amber">Demonstração Interativa em Tempo Real</span>
+          <h2 class="section-title">Teste o nosso <span class="serif-italic amber-italic">Sistema de Pedidos</span></h2>
+          <p class="section-subtitle">Experimente como seu cliente faz o pedido no celular e como você gerencia tudo na tela da cozinha sem intermediários nem comissões.</p>
+        </div>
+
+        <div class="tab-switcher-wrap">
+          <div class="tab-switcher">
+            <button id="tabCustomer" class="tab-btn active">
+              <i data-lucide="smartphone"></i>
+              <span>Visão do Cliente (Cardápio Digital)</span>
+            </button>
+            <button id="tabKitchen" class="tab-btn amber">
+              <i data-lucide="monitor"></i>
+              <span>Painel do Gestor / Cozinha (<span id="ordersCountTab">2</span>)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Customer tab -->
+        <div id="customerPanel" class="order-grid">
+          <div class="menu-col">
+            <div class="menu-col-header">
+              <h3><i data-lucide="utensils-crossed"></i><span>Cardápio Digital - Sabor & Arte</span></h3>
+              <span class="free-delivery-pill">Entrega Grátis acima de R$ 50</span>
+            </div>
+            <div id="menuGrid" class="menu-grid"></div>
+          </div>
+
+          <div class="cart-col">
+            <div class="cart-header">
+              <div class="cart-header-left">
+                <i data-lucide="shopping-bag"></i>
+                <h3>Seu Pedido (<span id="cartCount">0</span>)</h3>
+              </div>
+              <button id="clearCartBtn" class="clear-cart-btn" hidden>
+                <i data-lucide="trash-2"></i><span>Limpar</span>
+              </button>
+            </div>
+
+            <div id="cartEmptyState" class="cart-empty">
+              <i data-lucide="shopping-bag"></i>
+              <p>Seu carrinho está vazio.</p>
+              <p class="cart-empty-sub">Clique em "Adicionar" nos itens ao lado para simular o pedido.</p>
+            </div>
+
+            <form id="orderForm" class="order-form" hidden>
+              <div id="cartItemsList" class="cart-items-list"></div>
+
+              <div class="order-form-fields">
+                <div>
+                  <label for="customerName">Seu Nome:</label>
+                  <input type="text" id="customerName" required placeholder="Ex: Ana Maria" />
+                </div>
+                <div>
+                  <label for="customerAddress">Endereço de Entrega:</label>
+                  <input type="text" id="customerAddress" required placeholder="Ex: Av. Brasil, 1200 - Apto 41" />
+                </div>
+                <div>
+                  <label>Forma de Pagamento:</label>
+                  <div class="payment-methods">
+                    <button type="button" class="payment-btn active" data-method="pix">pix</button>
+                    <button type="button" class="payment-btn" data-method="cartao">cartao</button>
+                    <button type="button" class="payment-btn" data-method="dinheiro">dinheiro</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-totals">
+                <div class="order-total-row"><span>Subtotal</span><span id="cartSubtotal">R$ 0.00</span></div>
+                <div class="order-total-row"><span>Taxa de Entrega</span><span>R$ 7,00</span></div>
+                <div class="order-total-row order-total-final"><span>Total do Pedido</span><span id="cartFinalTotal">R$ 0.00</span></div>
+              </div>
+
+              <button type="submit" class="btn btn-amber btn-block">
+                <span>Confirmar & Enviar Pedido</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Kitchen tab -->
+        <div id="kitchenPanel" class="kitchen-panel" hidden>
+          <div class="kitchen-header">
+            <div class="kitchen-header-left">
+              <i data-lucide="chef-hat"></i>
+              <div>
+                <h3>Painel do Gestor - Pedidos em Tempo Real</h3>
+                <p>Visualize e altere o status de entrega dos pedidos conforme a produção.</p>
+              </div>
+            </div>
+            <span id="ordersCountBadge" class="orders-count-badge">2 Pedidos Registrados</span>
+          </div>
+
+          <div id="ordersGrid" class="orders-grid"></div>
+        </div>
+
+        <!-- Order success modal -->
+        <div id="orderSuccessModal" class="modal-overlay" hidden>
+          <div class="modal-box modal-sm">
+            <div class="modal-success-icon"><i data-lucide="check-circle"></i></div>
+            <h3 class="modal-success-title">Pedido Simulado com Sucesso!</h3>
+            <p class="modal-success-sub">Seu pedido <strong id="successOrderId" class="text-amber"></strong> foi enviado ao painel do gestor.</p>
+
+            <div class="modal-success-detail">
+              <div class="detail-row"><span>Cliente:</span><strong id="successCustomerName"></strong></div>
+              <div class="detail-row"><span>Total:</span><strong id="successTotal" class="text-amber"></strong></div>
+              <div class="detail-row"><span>Pagamento:</span><span id="successPayment"></span></div>
+            </div>
+
+            <div class="modal-success-note">🚀 É exatamente assim que seu cliente fará pedidos no seu próprio sistema criado pela G.I.S!</div>
+
+            <button id="viewKitchenBtn" class="btn btn-amber btn-block">Ver no Painel da Cozinha</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Portfólio de Trabalhos Recentes</span>
+          <h2 class="section-title">Projetos reais entregues pela <span class="serif-italic">G.I.S</span></h2>
+          <p class="section-subtitle">Conheça alguns dos sites, lojas virtuais e sistemas de pedidos desenvolvidos com altíssimo padrão de qualidade visual e performance.</p>
+        </div>
+
+        <div id="portfolioFilters" class="filter-pills"></div>
+        <div id="portfolioGrid" class="cards-row"></div>
+      </div>
+
+      <!-- Portfolio modal -->
+      <div id="portfolioModal" class="modal-overlay" hidden>
+        <div class="modal-box modal-lg">
+          <div class="modal-header">
+            <div>
+              <div class="modal-header-tags">
+                <span id="modalCategoryLabel" class="tag-pill"></span>
+                <span class="modal-location"><i data-lucide="map-pin"></i><span id="modalLocation"></span></span>
+              </div>
+              <h3 id="modalTitle" class="modal-title"></h3>
+              <p id="modalClient" class="modal-client"></p>
+            </div>
+            <button class="modal-close-btn" data-close-modal="portfolioModal"><i data-lucide="x"></i></button>
+          </div>
+
+          <div class="modal-body">
+            <div>
+              <div class="device-switcher-row">
+                <span class="device-switcher-label">Simulação do Projeto</span>
+                <div class="device-switcher">
+                  <button id="deviceDesktopBtn" class="device-btn active"><i data-lucide="monitor"></i><span>Desktop</span></button>
+                  <button id="deviceMobileBtn" class="device-btn"><i data-lucide="smartphone"></i><span>Mobile</span></button>
+                </div>
+              </div>
+
+              <div class="device-frame-wrap">
+                <div id="deviceFrame" class="device-frame desktop">
+                  <div id="browserBar" class="browser-bar">
+                    <div class="browser-dots">
+                      <span class="term-dot red"></span><span class="term-dot amber-y"></span><span class="term-dot green"></span>
+                    </div>
+                    <div id="browserUrl" class="browser-url"></div>
+                  </div>
+                  <img id="modalImage" src="" alt="" referrerpolicy="no-referrer" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 class="modal-block-title">Resultados do Cliente com a G.I.S</h4>
+              <div id="modalMetrics" class="modal-metrics-grid"></div>
+            </div>
+
+            <div>
+              <h4 class="modal-block-title">Sobre o Projeto</h4>
+              <p id="modalFullStory" class="modal-story"></p>
+            </div>
+
+            <div class="modal-two-col">
+              <div>
+                <h4 class="modal-block-title">Recursos Implementados</h4>
+                <ul id="modalFeatures" class="modal-feature-list"></ul>
+              </div>
+              <div>
+                <h4 class="modal-block-title">Tecnologias Utilizadas</h4>
+                <div id="modalTechStack" class="tech-tags"></div>
+              </div>
+            </div>
+
+            <div id="modalTestimonialWrap" class="modal-testimonial" hidden>
+              <p id="modalTestimonialQuote"></p>
+              <div class="modal-testimonial-author">— <span id="modalTestimonialAuthor"></span>, <span id="modalTestimonialRole" class="muted"></span></div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <span>Quer um projeto como este para o seu negócio?</span>
+            <a id="modalWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-emerald-gradient">
+              <span>Quero um Projeto Assim</span>
+              <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CALCULATOR ============ -->
+    <section id="calculadora" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Calculadora de Orçamento Instantânea</span>
+          <h2 class="section-title">Simule o valor do seu <span class="serif-italic">novo site</span> em segundos</h2>
+          <p class="section-subtitle">Monte o pacote exato de acordo com as necessidades do seu negócio e receba uma estimativa transparente.</p>
+        </div>
+
+        <div class="calc-grid">
+          <div class="calc-options-col">
+            <div>
+              <label class="calc-step-label">1. Escolha o Tipo de Projeto:</label>
+              <div id="projectTypeGrid" class="project-type-grid"></div>
+            </div>
+
+            <div class="calc-slider-card">
+              <div class="calc-slider-header">
+                <label class="calc-step-label">2. Quantidade de Páginas / Telas:</label>
+                <span id="pageCountDisplay" class="page-count-badge">3 Páginas</span>
+              </div>
+              <input type="range" id="pageCountSlider" min="1" max="10" value="3" class="range-slider" />
+              <div class="range-labels">
+                <span>1 (Landing Page Única)</span>
+                <span>5 Páginas</span>
+                <span>10 Páginas Completa</span>
+              </div>
+            </div>
+
+            <div>
+              <label class="calc-step-label">3. Adicione Recursos Opcionais:</label>
+              <div id="featuresGrid" class="features-grid"></div>
+            </div>
+
+            <div class="express-toggle-card">
+              <div>
+                <span class="express-title">Prazo de Entrega Expresso (3 a 5 Dias)</span>
+                <span class="express-sub">Acelere o desenvolvimento com prioridade total da equipe (+25%)</span>
+              </div>
+              <input type="checkbox" id="expressDeliveryCheckbox" class="checkbox-lg" />
+            </div>
+          </div>
+
+          <div class="calc-summary-col">
+            <div class="summary-card">
+              <div class="summary-header">
+                <div class="summary-icon"><i data-lucide="calculator"></i></div>
+                <div>
+                  <h3>Resumo da Simulação</h3>
+                  <p>Estimativa baseada nas opções selecionadas</p>
+                </div>
+              </div>
+
+              <div id="summaryBreakdown" class="summary-breakdown"></div>
+
+              <div class="summary-total">
+                <span class="summary-total-label">Estimativa Final</span>
+                <div id="finalPriceDisplay" class="summary-total-value">R$ 0</div>
+                <span class="summary-total-time">Prazo estimado: <strong id="deliveryTimeDisplay"></strong></span>
+              </div>
+
+              <div class="summary-guarantees">
+                <div><i data-lucide="shield" class="text-emerald"></i><span>Sem taxas ocultas. Pagamento parcelado sem juros.</span></div>
+                <div><i data-lucide="clock"></i><span>Garantia de entrega no prazo ou dinheiro de volta.</span></div>
+              </div>
+
+              <a id="calcWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-emerald btn-block">
+                <i data-lucide="message-square"></i>
+                <span>Confirmar Orçamento no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPARISON ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Comparativo Estratégico</span>
+          <h2 class="section-title">Por que sua empresa precisa de uma <span class="serif-italic">solução G.I.S</span>?</h2>
+          <p class="section-subtitle">Veja a diferença entre continuar dependendo de métodos ultrapassados e ter uma estrutura digital própria.</p>
+        </div>
+
+        <div class="comparison-grid">
+          <div class="comparison-col without">
+            <div class="comparison-col-header">
+              <div class="comparison-icon red"><i data-lucide="shield-alert"></i></div>
+              <div>
+                <h3>Sem um site da G.I.S</h3>
+                <p>A dependência de intermediários</p>
+              </div>
+            </div>
+            <ul id="comparisonWithoutList" class="comparison-list"></ul>
+          </div>
+
+          <div class="comparison-col with">
+            <div class="comparison-col-header">
+              <div class="comparison-icon emerald"><i data-lucide="sparkles"></i></div>
+              <div>
+                <h3>Com a G.I.S Soluções <span class="recommended-tag">Recomendado</span></h3>
+                <p>Autonomia total e lucro elevado</p>
+              </div>
+            </div>
+            <ul id="comparisonWithList" class="comparison-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Depoimentos de Clientes</span>
+          <h2 class="section-title">Quem contratou a <span class="serif-italic">G.I.S</span> recomenda</h2>
+          <p class="section-subtitle">Confira a experiência de empresários e lojistas que transformaram seus negócios com nossas soluções.</p>
+        </div>
+
+        <div id="testimonialsGrid" class="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Fale Conosco</span>
+          <h2 class="section-title">Pronto para impulsionar a sua <span class="serif-italic">empresa</span>?</h2>
+          <p class="section-subtitle">Solicite um orçamento sem compromisso e receba um atendimento rápido com a equipe G.I.S.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <div class="contact-info-card">
+              <h3>Atendimento Direto G.I.S</h3>
+              <p>Atendemos clientes em todo o Brasil. Resposta rápida pelo WhatsApp com consultor especialista.</p>
+
+              <div class="contact-info-list">
+                <a id="contactWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="contact-wa-row">
+                  <div class="contact-wa-left">
+                    <div class="contact-wa-icon"><i data-lucide="message-square"></i></div>
+                    <div>
+                      <span class="contact-label">WhatsApp Oficial</span>
+                      <strong>+55 11 97716-7323</strong>
+                    </div>
+                  </div>
+                  <span class="contact-cta-text">Chamar Agora</span>
+                </a>
+
+                <div class="contact-static-row">
+                  <div class="contact-static-icon"><i data-lucide="mail"></i></div>
+                  <div>
+                    <span class="contact-label">E-mail Comercial</span>
+                    <strong>gis.digital003@gmail.com</strong>
+                  </div>
+                </div>
+
+                <div class="contact-static-row">
+                  <div class="contact-static-icon"><i data-lucide="clock"></i></div>
+                  <div>
+                    <span class="contact-label">Horário de Atendimento</span>
+                    <strong>Segunda a Sábado, das 08h às 20h</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-privacy-note">
+                <i data-lucide="shield-check" class="text-emerald"></i>
+                <span>Seus dados são protegidos e mantidos em total sigilo.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-col">
+            <div id="contactFormSuccess" class="contact-success" hidden>
+              <div class="contact-success-icon"><i data-lucide="check-circle-2"></i></div>
+              <h3>Solicitação Direcionada para o WhatsApp!</h3>
+              <p>Sua mensagem foi formatada com os dados do projeto. Se a janela do WhatsApp não tiver aberto automaticamente, clique no botão abaixo para iniciar o atendimento:</p>
+              <div class="contact-success-actions">
+                <a id="contactSuccessWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-emerald">
+                  <i data-lucide="message-square"></i><span>Abrir Conversa no WhatsApp</span>
+                </a>
+                <button id="contactSendAnotherBtn" class="btn btn-zinc">Enviar Nova Mensagem</button>
+              </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+              <h3>Envie uma Solicitação de Projeto</h3>
+
+              <div class="form-row-2">
+                <div>
+                  <label for="contactName">Seu Nome Completo:</label>
+                  <input type="text" id="contactName" required placeholder="Ex: João da Silva" />
+                </div>
+                <div>
+                  <div class="label-with-hint">
+                    <label for="contactPhone">WhatsApp com DDD:</label>
+                    <span class="hint-text">Máx. 11 dígitos</span>
+                  </div>
+                  <input type="text" id="contactPhone" required maxlength="15" placeholder="Ex: (11) 97716-7323" />
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div>
+                  <label for="contactCompany">Nome da sua Empresa / Loja:</label>
+                  <input type="text" id="contactCompany" placeholder="Ex: Pizzaria Bella, Silva Tech..." />
+                </div>
+                <div>
+                  <label for="contactService">Serviço de Interesse:</label>
+                  <select id="contactService">
+                    <option value="site">Criação de Site Institucional</option>
+                    <option value="sistema-pedidos">Sistema de Pedidos Delivery</option>
+                    <option value="e-commerce">Loja Virtual E-commerce</option>
+                    <option value="dashboard">Sistema Web Sob Medida</option>
+                    <option value="manutencao">Manutenção & Otimização</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="contactMessage">Detalhes do que você precisa:</label>
+                <textarea id="contactMessage" rows="4" required placeholder="Descreva brevemente o que sua empresa vende, se você já possui um site antigo ou se é um projeto do zero..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-cta-gradient-2 btn-block">
+                <i data-lucide="message-square"></i>
+                <span>Enviar Solicitação Direto no WhatsApp</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq-wrap">
+          <div class="faq-header">
+            <h3>Perguntas Frequentes (FAQ)</h3>
+            <p>Tire suas dúvidas sobre o processo de criação de sites com a G.I.S</p>
+          </div>
+          <div id="faqList" class="faq-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="gis-logo" data-size="lg">
+            <div class="gis-logo-badge">
+              <img src="https://res.cloudinary.com/di9go4bdw/image/upload/v1784661184/logo_da_gis_ysom6v.jpg" alt="Logo G.I.S" class="gis-logo-img" loading="lazy" /><div class="gis-logo-fallback" hidden><span>G.I.S</span></div>
+              <span class="gis-logo-ping"></span>
+              <span class="gis-logo-dot"></span>
+            </div>
+            <div class="gis-logo-text">
+              <span class="gis-logo-title">G.I.S <em>TECH</em></span>
+              <span class="gis-logo-subtitle"><i data-lucide="cpu"></i>Sistemas & Web de Alta Performance</span>
+            </div>
+          </div>
+          <p class="footer-desc">Agência de tecnologia especializada na criação de websites institucionais de alta velocidade, e-commerces e sistemas inteligentes de pedidos online sem comissões. Transformamos sua marca com arquitetura moderna e design futurista.</p>
+          <div class="footer-status-pill">
+            <span class="dot-ping"></span>
+            G.I.S CYBER INFRASTRUCTURE
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Nossas Soluções</h4>
+          <ul>
+            <li><a href="#servicos">Sites Institucionais & Landing Pages</a></li>
+            <li><a href="#sistema-pedidos-demo">Sistemas de Pedidos & Cardápio Digital</a></li>
+            <li><a href="#servicos">Lojas Virtuais E-commerce</a></li>
+            <li><a href="#servicos">Dashboards & Automações Sob Medida</a></li>
+            <li><a href="#calculadora">Calculadora de Orçamento</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Fale com a G.I.S</h4>
+          <p>Pronto para colocar sua empresa no topo tecnológico? Inicie seu projeto hoje mesmo com nossa equipe.</p>
+          <a id="footerWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="footer-wa-btn">
+            <i data-lucide="message-square"></i>
+            <span>WhatsApp: +55 11 97716-7323</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> G.I.S Soluções Web & Sistemas. Todos os direitos reservados.</p>
+        <button id="scrollTopBtn" class="scroll-top-btn">
+          <span>Voltar ao topo</span>
+          <i data-lucide="arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ AI CONSULTANT MODAL ============ -->
+  <div id="aiConsultantModal" class="modal-overlay" hidden>
+    <div class="modal-box modal-md ai-modal">
+      <div class="ai-modal-header">
+        <div class="ai-modal-header-left">
+          <div class="gis-logo" data-size="sm">
+            <div class="gis-logo-badge">
+              <img src="https://res.cloudinary.com/di9go4bdw/image/upload/v1784661184/logo_da_gis_ysom6v.jpg" alt="Logo G.I.S" class="gis-logo-img" loading="lazy" /><div class="gis-logo-fallback" hidden><span>G.I.S</span></div>
+              <span class="gis-logo-ping"></span>
+              <span class="gis-logo-dot"></span>
+            </div>
+          </div>
+          <div>
+            <h3>CONSULTOR DE PROJETOS IA G.I.S <span class="ai-version-tag">v3.4 AI</span></h3>
+            <p>Descubra a arquitetura ideal de site ou sistema para sua empresa em segundos.</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" data-close-modal="aiConsultantModal"><i data-lucide="x"></i></button>
+      </div>
+
+      <div class="ai-modal-body">
+        <form id="aiConsultantForm" class="ai-form">
+          <div>
+            <label for="aiBusinessName">Nome da sua Empresa / Marca:</label>
+            <input type="text" id="aiBusinessName" required placeholder="Ex: Pizzaria Bella Italia / Silva Advocacia" />
+          </div>
+          <div>
+            <label for="aiBusinessType">Tipo / Ramo do seu Negócio:</label>
+            <input type="text" id="aiBusinessType" required placeholder="Ex: Restaurante delivery, loja de roupas, clínica médica..." />
+          </div>
+          <div>
+            <label for="aiGoal">Qual seu objetivo principal com o site?</label>
+            <textarea id="aiGoal" rows="2" placeholder="Ex: Vender sem comissão, receber agendamentos, passar credibilidade..."></textarea>
+          </div>
+          <div>
+            <label for="aiFeatures">Algum recurso específico desejado? (Opcional)</label>
+            <input type="text" id="aiFeatures" placeholder="Ex: Pagamento Pix, Cardápio digital, Bot do WhatsApp..." />
+          </div>
+          <button type="submit" id="aiSubmitBtn" class="btn btn-ai-gradient btn-block">
+            <i data-lucide="sparkles"></i>
+            <span>Gerar Recomendação de Arquitetura</span>
+          </button>
+        </form>
+
+        <div id="aiResultPanel" class="ai-result-panel" hidden>
+          <div class="ai-result-header">
+            <div class="ai-result-header-top">
+              <span>Solução Tecnológica Recomendada</span>
+              <span id="aiSuggestedPlan" class="ai-plan-badge"></span>
+            </div>
+            <h4 id="aiRecommendedType"></h4>
+            <p id="aiProposalSummary"></p>
+          </div>
+
+          <div class="ai-result-meta">
+            <div class="ai-result-time"><i data-lucide="clock"></i><span>Prazo Estimado: <strong id="aiEstimatedTime"></strong></span></div>
+            <div>
+              <span class="ai-features-label">Recursos Inclusos:</span>
+              <ul id="aiKeyFeatures" class="ai-features-list"></ul>
+            </div>
+          </div>
+
+          <div class="ai-result-actions">
+            <button id="aiNewAnalysisBtn" class="btn btn-zinc">Nova Análise</button>
+            <a id="aiWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-emerald-gradient" style="flex:1">
+              <span>Solicitar este Projeto no WhatsApp</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+  <a id="floatingWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="Falar no WhatsApp">
+    <i data-lucide="message-square"></i>
+    <span class="floating-wa-tooltip">Fazer Orçamento no WhatsApp</span>
+  </a>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
